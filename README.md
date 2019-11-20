@@ -34,4 +34,9 @@ SECRET_KEY=
 
 
 Steps:
-once cloned, create .evn file, add postman env pre-required script then npm start, then use _TOKEN for each call.
+once cloned,
+create .evn file, 
+install dependencies,
+add postman env pre-required script then
+npm start,
+then use _TOKEN which is set under global variables for each call.
