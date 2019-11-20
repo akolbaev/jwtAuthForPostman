@@ -1,4 +1,4 @@
-this jwt encoder is used to automate token generation for lambda api call requests which require unique token fof each call.
+this jwt encoder is used to automate token generation for lambda api call requests which require unique token for each call.
 
 the following needs to be added to postman env pre required script:
 
@@ -20,7 +20,7 @@ urlencoded: [
 pm.globals.set("_TOKEN", res.json().token);
 });
 
-*Note: username password need to be updated, plus following value are need under .env file (jwt payload and secret-key):
+*Note: username password need to be updated, plus following values are needed under .env file (u & p + jwt payload and secret-key):
 
 NAME=
 PASSWORD=
